@@ -114,3 +114,18 @@ header {
     .seleccionado {
       @apply w-10 h-10 bg-red-500 text-white;
     }
+
+    .boton3{
+      @apply grid grid-cols-1 text-center leading-6 mb-4 mx-auto max-w-full;
+      background-color: rgb(203, 39, 88);
+      color:white;
+      padding: 5px ;
+      border-radius:  6px; }
+
+      .contenedor2{
+        background-color: rgb(213, 213, 213);
+        margin: auto;
+        padding: 10px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        background-size: 100%;}
