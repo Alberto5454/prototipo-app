@@ -9,3 +9,108 @@ body {
 header {
     @apply bg-gray-800;
 }
+
+.fondo{
+    min-height: max-content;
+    background-image: url(Duki.jpg);
+    background-position: center;
+     /* background: no-repeat; */
+}
+
+
+
+.contenedor{
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 10px;
+
+}
+
+.boton1{
+    @apply grid grid-cols-1  leading-6 mb-4 mx-auto max-w-fit;
+       background-color: rgb(203, 39, 88);
+       color:white;
+       padding: 5px 15px;
+       border-radius:  6px;
+       float: right;
+
+       
+}
+.boton2{
+    @apply grid grid-cols-1 text-center leading-6 mb-4 mx-auto max-w-fit;
+       background-color: rgb(203, 39, 88);
+       color:white;
+       padding: 5px 30px;
+       border-radius:  6px;
+}
+
+.botonesmenu:hover{
+    color: rgb(171, 54, 77);
+
+}
+
+
+.mainInfo {
+
+    color: rgb(107 114 128); 
+    border: rgb(243, 244, 246);
+    border-radius: 10px; 
+    border-width: 5px 0px 40px;
+    padding: 10px;
+    
+    background-color: rgb(243, 244, 246);
+}
+    .org {
+    
+    @apply grid grid-cols-3 leading-6 mb-4 mx-auto max-w-lg;
+    
+    }
+    
+    .org1 {
+    
+    @apply w-10 h-10 bg-gray-300 text-gray-500 rounded-md;
+    }
+    .org2 {
+    
+    @apply-mx-28 -my-1
+    }
+    .btns{
+    
+    @apply grid grid-cols-1 text-center leading-3 mx-auto max-w-fit;
+    
+    background-color: rgb(255, 0, 51);
+    
+    color: white;
+    
+    padding: 15px; border-radius: 8px;
+    }
+
+  
+ .contenedor2{
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 10px; 
+ }
+
+    .fila-1 {
+      @apply grid grid-cols-6 justify-items-stretch gap-4 text-center leading-10 mb-4 mx-auto max-w-lg px-10;
+    }
+    .fila {
+      @apply grid grid-cols-7 gap-4 text-center leading-10 mb-4 mx-auto max-w-lg;
+    }
+    
+    .asiento {
+      @apply cursor-pointer w-10 h-10 bg-gray-200 rounded-md;
+    }
+    
+    .reservado {
+      @apply w-10 h-10 bg-blue-500 text-white;
+    }
+    
+    .seleccionado {
+      @apply w-10 h-10 bg-red-500 text-white;
+    }
