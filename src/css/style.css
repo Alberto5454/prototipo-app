@@ -12,7 +12,7 @@ header {
 
 .fondo{
     min-height: max-content;
-    background-image: url(Duki.jpg);
+    background-image: url(Duki.jp);
     background-position: center;
      /* background: no-repeat; */
 }
@@ -120,7 +120,7 @@ header {
       background-color: rgb(203, 39, 88);
       color:white;
       padding: 5px ;
-      border-radius:  6px; }
+      border-radius:6px; }
 
       .contenedor2{
         background-color: rgb(213, 213, 213);
@@ -128,4 +128,41 @@ header {
         padding: 10px;
         border-top-right-radius: 20px;
         border-top-left-radius: 20px;
-        background-size: 100%;}
+        background-size:100%;}
+
+        .headT {
+          @apply grid grid-cols-1 text-left leading-3 mt-8 mx-auto max-w-lg;
+      }
+      
+      
+      .lineas {
+          @apply grid grid-cols-2 text-left mt-4 mx-auto max-w-lg;
+      }
+      
+      .lineaT{
+          @apply grid grid-cols-1;
+      }
+      
+      .fechas {
+          @apply cursor-pointer w-16 h-16 bg-gray-50 text-gray-600 rounded-md;
+      }
+      
+      .fechasI {
+          @apply text-center leading-5 mt-3 mx-auto max-w-lg;
+      }
+      
+      .lineaC {
+          
+      }
+      
+      .presentaciones {
+          @apply mb-8 cursor-pointer w-96 h-48 bg-gray-400 text-gray-500 rounded-md -ml-32;
+      }
+      
+      .pre1 {
+          @apply grid grid-cols-1 text-left ml-4 mx-auto max-w-fit;
+      }
+      
+      .pre1-1 {
+          @apply grid grid-cols-2 mt-7 text-left; 
+       } 

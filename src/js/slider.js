@@ -1,5 +1,5 @@
 let slider = document.getElementById('slider');
-if (slider) {
+if (slider) { 
 slider.innerHTML = `
 <!-- Slider (Pase de diapositivas) -->
 
@@ -8,23 +8,23 @@ slider.innerHTML = `
   <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
        <!-- Item 1 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
-          <img src="/src/images/descarga.jpeg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          <img src="./images/carousel/descarga.jpeg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
       </div>
       <!-- Item 2 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src="/src/images/IvanHerzog_LaNau_7-1280x640 (1).jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          <img src="./images/carousel/IvanHerzog_LaNau_7-1280x640 (1).jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
       </div>
       <!-- Item 3 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src="/src/images/FrYR92SWIAklS1H.jpeg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          <img src="./images/carousel/FrYR92SWIAklS1H.jpeg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
       </div>
       <!-- Item 4 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src="/src/images/IMG_3333-e1581870604481.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          <img src="./images/carousel/IMG_3333-e1581870604481.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
       </div>
       <!-- Item 5 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src="/src/images/Elias-Rampello-en-concierto-en-Plataforma-Lavarden-01-rosarioshow-1280x640.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          <img src="./images/carousel/Elias-Rampello-en-concierto-en-Plataforma-Lavarden-01-rosarioshow-1280x640.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
       </div>
   </div>
   <!-- Slider indicators -->
