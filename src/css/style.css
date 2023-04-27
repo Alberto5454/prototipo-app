@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-    @apply text-gray-300 p-0 m-0;
+    @apply mb-24 text-gray-300 p-0 m-0 ;
 }
 
 header {
@@ -12,7 +12,7 @@ header {
 
 .fondo{
     min-height: max-content;
-    background-image: url(conciertos.jpg);
+    background-image: url(Duki.jpg);
     background-position: center;
      /* background: no-repeat; */
 }
@@ -51,6 +51,13 @@ header {
 
 }
 
+.boton3{
+    @apply grid grid-cols-1 text-center leading-6 mb-4 mx-auto max-w-full;
+    background-color: rgb(203, 39, 88);
+    color:white;
+    padding: 5px ;
+    border-radius:  6px;
+}
 
 .mainInfo {
 
@@ -89,11 +96,14 @@ header {
 
   
  .contenedor2{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(213, 213, 213);
     margin: auto;
+    padding: 10px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
-    padding: 10px; 
+    background-size: 100%;
+    
+
  }
 
     .fila-1 {
@@ -115,54 +125,124 @@ header {
       @apply w-10 h-10 bg-red-500 text-white;
     }
 
-    .boton3{
-      @apply grid grid-cols-1 text-center leading-6 mb-4 mx-auto max-w-full;
-      background-color: rgb(203, 39, 88);
-      color:white;
-      padding: 5px ;
-      border-radius:6px; }
 
-      .contenedor2{
-        background-color: rgb(213, 213, 213);
-        margin: auto;
-        padding: 10px;
-        border-top-right-radius: 20px;
-        border-top-left-radius: 20px;
-        background-size:100%;}
 
-        .headT {
-          @apply grid grid-cols-1 text-left leading-3 mt-8 mx-auto max-w-lg;
-      }
-      
-      
-      .lineas {
-          @apply grid grid-cols-2 text-left mt-4 mx-auto max-w-lg;
-      }
-      
-      .lineaT{
-          @apply grid grid-cols-1;
-      }
-      
-      .fechas {
-          @apply cursor-pointer w-16 h-16 bg-gray-50 text-gray-600 rounded-md;
-      }
-      
-      .fechasI {
-          @apply text-center leading-5 mt-3 mx-auto max-w-lg;
-      }
-      
-      .lineaC {
-          
-      }
-      
-      .presentaciones {
-          @apply mb-8 cursor-pointer w-96 h-48 bg-gray-400 text-gray-500 rounded-md -ml-32;
-      }
-      
-      .pre1 {
-          @apply grid grid-cols-1 text-left ml-4 mx-auto max-w-fit;
-      }
-      
-      .pre1-1 {
-          @apply grid grid-cols-2 mt-7 text-left; 
-       } 
+    .headT {
+        @apply grid grid-cols-1 text-left leading-3 mt-8 mx-auto max-w-lg;
+    }
+    
+    
+    .lineas {
+        @apply grid grid-cols-2 text-left mt-4 mx-auto max-w-lg;
+    }
+    
+    .lineaT{
+        @apply grid grid-cols-1;
+    }
+    
+    .fechas {
+        @apply cursor-pointer w-16 h-16 bg-gray-50 text-gray-600 rounded-md;
+    }
+    
+    .fechasI {
+        @apply text-center leading-5 mt-3 mx-auto max-w-lg;
+    }
+    
+    .lineaC {
+        
+    }
+    
+    .presentaciones {
+        @apply mb-8 cursor-pointer w-96 h-48 bg-gray-400 text-gray-500 rounded-md -ml-32;
+    }
+    
+    .pre1 {
+        @apply grid grid-cols-1 text-left ml-4 mx-auto max-w-fit;
+    }
+    
+    .pre1-1 {
+        @apply grid grid-cols-2 mt-7 text-left; 
+     } 
+   /* estilos del archivo perfil.html */
+     .botonperfil1{
+        @apply text-center ml-32 mr-4 max-w-fit;
+        background-color: rgb(203, 39, 88);
+        color:white;
+        padding: 3px ;
+        border-radius:  6px;
+        margin-top: 150px;
+     }
+     .botonperfil2{
+        @apply text-center mx-3 max-w-fit;
+        background-color: rgb(255, 255, 255);
+        color:rgb(0, 0, 0);
+        padding: 3px ;
+        border-radius:  6px;
+       margin-bottom: auto;
+       margin-top: 150px;
+       margin-left: auto;
+     }  
+     
+     .contenedor3{
+    border-radius: 10px;
+    background-color: white;
+    padding: 8px;
+    margin: 12px;
+    }
+    .botondecontenedor3{
+        float: right;
+        background-color: rgb(203, 39, 88);
+        border-radius: 15px;
+        padding: 2px;
+        padding-left: 6px;
+        padding-right: 6px;
+        margin: 6px;
+    }
+
+    .contenedor4{
+    border-radius: 10px;
+    background-color: white;
+    padding: 8px;
+    margin: 12px;
+    
+    }
+    .botondecontenedor4{
+        float: right;
+        background-color: rgb(203, 39, 88);
+        border-radius: 15px;
+        padding: 2px;
+        padding-left: 6px;
+        padding-right: 6px;
+        margin: 6px;
+    }
+/* estilos del archivo tickets.html */
+    .botont1{
+        @apply grid grid-cols-1 text-center leading-6 mb-4 mx-auto max-w-fit;
+        background-color: rgb(203, 39, 88);
+        color:white;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 8px;
+        padding-right: 8px;
+        border-radius:  6px;
+    }
+    .botont2{
+        @apply grid grid-cols-1 text-center leading-6 mb-4 mx-auto max-w-fit;
+        background-color: white;
+        color:rgb(0, 0, 0);
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 8px;
+        padding-right: 8px;
+        border-radius:  6px;
+    }
+    .botont3{
+        @apply grid grid-cols-1 text-center leading-6 mb-4 mx-auto max-w-fit;
+        background-color: rgb(255, 255, 255);
+        color:rgb(0, 0, 0);
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 8px;
+        padding-right: 8px;
+        border-radius:  6px;
+    }
