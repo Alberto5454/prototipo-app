@@ -163,26 +163,35 @@ header {
     .pre1-1 {
         @apply grid grid-cols-2 mt-7 text-left; 
      } 
-   /* estilos del archivo perfil.html */
-     .botonperfil1{
-        @apply text-center ml-32 mr-4 max-w-fit;
+    /* estilos del archivo perfil.html */
+   .contenedordebotonesperfil{
+     display: flex;
+        justify-content: center;
+        align-items: center;
+   }
+    .botonperfil1{
+        @apply text-center  max-w-fit;
         background-color: rgb(203, 39, 88);
         color:white;
         padding: 3px ;
         border-radius:  6px;
         margin-top: 150px;
+        margin-right: 2px;
+       
      }
      .botonperfil2{
-        @apply text-center mx-3 max-w-fit;
+        @apply text-center  max-w-fit;
         background-color: rgb(255, 255, 255);
         color:rgb(0, 0, 0);
         padding: 3px ;
         border-radius:  6px;
-       margin-bottom: auto;
        margin-top: 150px;
-       margin-left: auto;
+       margin-left: 2px;
      }  
      
+     .texto{
+        padding-left: 20px;
+     }
      .contenedor3{
     border-radius: 10px;
     background-color: white;
@@ -216,8 +225,9 @@ header {
         margin: 6px;
     }
 /* estilos del archivo tickets.html */
+
     .botont1{
-        @apply grid grid-cols-1 text-center leading-6 mb-4 mx-auto max-w-fit;
+        @apply grid grid-cols-1 text-center leading-6 mt-3 mb-3 mx-auto max-w-fit;
         background-color: rgb(203, 39, 88);
         color:white;
         padding-top: 2px;
@@ -226,8 +236,11 @@ header {
         padding-right: 8px;
         border-radius:  6px;
     }
+    .botont1:hover{
+        background-color: rgb(149, 0, 25);
+    }
     .botont2{
-        @apply grid grid-cols-1 text-center leading-6 mb-4 mx-auto max-w-fit;
+        @apply grid grid-cols-1 text-center leading-6  mt-3 mb-3 mx-auto max-w-fit;
         background-color: white;
         color:rgb(0, 0, 0);
         padding-top: 2px;
@@ -236,8 +249,12 @@ header {
         padding-right: 8px;
         border-radius:  6px;
     }
+
+    .botont2:hover{
+        background-color: gray;
+    }
     .botont3{
-        @apply grid grid-cols-1 text-center leading-6 mb-4 mx-auto max-w-fit;
+        @apply grid grid-cols-1 text-center leading-6  mt-3 mb-3 mx-auto max-w-fit;
         background-color: rgb(255, 255, 255);
         color:rgb(0, 0, 0);
         padding-top: 2px;
@@ -245,4 +262,14 @@ header {
         padding-left: 8px;
         padding-right: 8px;
         border-radius:  6px;
+    }
+    .botont3:hover{
+        background-color: gray;
+    }
+/* checkbox */
+    .margen{
+        background-color: rgb(255, 255, 255);
+    padding: 8px;
+    margin: 4px;
+    border-radius: 10px;
     }
